@@ -18,3 +18,27 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  padding: 10;
+}
+.name_country {
+  margin-left: 10px;
+}
+.name_box{
+  display: flex;
+}
+
+.name_box > .name_country {
+  font-size: 20;
+  font-weight: 800;
+  text-transform:uppercase;
+}
+span {
+  font-weight: 800;
+}
